@@ -1,0 +1,11 @@
+[ zeevex ]
+nsCertType              = server
+keyUsage                = digitalSignature,nonRepudiation,keyEncipherment
+extendedKeyUsage        = serverAuth
+subjectKeyIdentifier    = hash
+authorityKeyIdentifier  = keyid,issuer
+subjectAltName          = @site_ext_subject
+[ site_ext_subject ]
+DNS.1 = zxdev.zeevex.net
+DNS.2 = www.zxdev.zeevex.net
+DNS.3 = iframe.zxdev.zeevex.net
